@@ -4,6 +4,11 @@
 # Formati per il Packet Tracer
 !**/*.pkt
 
+# Formati wire
+!**/*.pcap
+!**/*.pcapng
+!**/*.log
+
 # File geerici
 !LICENSE
 !*/
