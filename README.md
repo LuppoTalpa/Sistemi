@@ -1,60 +1,178 @@
-# 💻 Esercizi di Sistemi
+# 💻 Esercizi di TEPSIT
 
-![Talpa](https://img.shields.io/badge/Talpa-🐾%20online-green)
-![scuola](https://img.shields.io/badge/scuola-IIS%20F.Corni-red)
-![Cisco Packet Tracer](https://img.shields.io/badge/Cisco-PacketTracer-1BA0D7?logo=cisco&logoColor=white)
-
-Questa repository contiene tutti gli esercizi di **Sistemi** svolti a scuola con **Cisco Packet Tracer**.  
-Ogni file rappresenta una simulazione o un progetto di rete.
+Raccolta completa degli **esercizi di TEPSIT** svolti a scuola, organizzati per linguaggio e argomento.
+Ogni file contiene codice pulito, commentato e testato.
 
 ---
 
-## 🧠 Cosa troverai
+## 📂 Struttura della Repository
 
-- Esercizi di rete in Packet Tracer
-- Configurazioni di base e avanzate
-- Nomi chiari e cartelle ordinate
-- Spiegazioni con commenti/testo quando necessario
-
----
-
-## 🚀 Come aprire i file
-
-1. Installa [Cisco Packet Tracer](https://www.netacad.com/courses/packet-tracer).
-2. Scarica i file `.pkt` da questa repository.
-3. Aprili direttamente in Packet Tracer e avvia la simulazione.
+| Cartella      | Descrizione                                                        |
+| ------------- | ------------------------------------------------------------------ |
+| **Html**      | Esercizi di struttura HTML e markup semantico                      |
+| **Css**       | Styling e layout con CSS (Flexbox, Grid, Responsive)             |
+| **JavaScript** | Script interattivi, DOM manipulation, e logica front-end          |
+| **Java**      | Esercizi Java (classi, algoritmi, strutture dati)                 |
+| **C**         | Programmi in linguaggio C                                          |
 
 ---
 
-## 📌 Obiettivi
+## 🛠️ Linguaggi e Tecnologie
 
-- Esercitarmi con la progettazione di reti
-- Capire meglio protocolli e configurazioni
-- Tenere traccia dei progressi a scuola
-- Prepararmi a verifiche e laboratori
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=flat&logo=c&logoColor=white)
 
----
+**Livello di competenza**
 
-## 📖 Argomenti trattati
-
-- Configurazioni base di switch e router
-- Indirizzamento IPv4 e subnetting
-- Reti LAN e WAN
-- Routing statico e dinamico
-- DHCP, DNS e servizi di rete
-- Simulazioni di traffico e troubleshooting
+| Avanzato              | Intermedio | Base |
+| --------------------- | ---------- | ---- |
+| HTML5, CSS3, JavaScript | Java       | C    |
 
 ---
 
-## 🗒️ Note
+## 📋 Argomenti Trattati
 
-- Tutti i file sono testati su **Cisco Packet Tracer 8.x**.
-- Alcuni esercizi sono semplificati per scopi didattici.
-- Suggerimenti e correzioni sono sempre ben accetti.
+### Fondamentali
+
+- ✅ Struttura HTML e tag semantici
+- ✅ Selettori CSS e box model
+- ✅ Variabili e tipi di dato in JavaScript
+- ✅ Funzioni e scope
+- ✅ Array e stringhe
+
+### Intermedi
+
+- ✅ Layout responsive e Media queries
+- ✅ Flexbox e CSS Grid
+- ✅ DOM Manipulation e Event Listeners
+- ✅ Programmazione a oggetti (OOP)
+- ✅ Gestione file e input/output (Java)
+
+### Avanzati
+
+- ✅ Animazioni CSS e transizioni
+- ✅ Fetch API e chiamate asincrone
+- ✅ Formulari e validazione JavaScript
+- ✅ Design patterns
+- ✅ Algoritmi complessi
 
 ---
 
-## 📎 Licenza
+## 🚀 Come Usare Questa Repository
 
-Questa repository è distribuita con licenza **MIT**.  
-Puoi usare i file liberamente per studio e didattica.
+### HTML + CSS + JavaScript
+
+**Metodo 1: Doppio click diretto**
+
+```bash
+# Apri semplicemente il file .html dal tuo computer
+# I file si apriranno nel browser di default
+```
+
+**Metodo 2: Con VS Code e Live Server (consigliato)**
+
+1. Apri la cartella del progetto in VS Code
+2. Installa l'estensione "Live Server" (Ritchie Chen)
+3. Clicca con il tasto destro sul file `.html`
+4. Seleziona "Open with Live Server"
+5. Il sito si aprirà automaticamente con auto-reload
+
+### Java
+
+```bash
+# Compilare
+javac NomeFile.java
+
+# Eseguire
+java NomeClasse
+```
+
+### C
+
+```bash
+# Compilare
+gcc -o programma file.c
+
+# Eseguire
+./programma
+```
+
+---
+
+## 📝 Organizzazione dei File
+
+Ogni file segue questo naming convention:
+
+- Nomi descrittivi in italiano o inglese
+- Codice indentato e leggibile
+- Commenti esplicativi quando necessario
+- Header con descrizione del progetto
+
+Esempio:
+
+```
+Html/
+├── 01_FormBase.html
+├── 02_LayoutSemantico.html
+└── ...
+
+JavaScript/
+├── 01_EventListener.js
+├── 02_DOMManipulation.js
+└── ...
+
+Java/
+├── Calcolatrice.java
+├── GestioneFile.java
+└── ...
+```
+
+---
+
+## 🎯 Obiettivi Didattici
+
+✨ Praticare lo **sviluppo front-end** (HTML, CSS, JavaScript)
+✨ Tenere traccia degli **esercizi svolti** durante il corso
+✨ Avere **esempi pronti** da usare per ripasso e progetti futuri
+✨ Migliorare la pratica con linguaggi **eterogenei**
+✨ Creare un portfolio di **codice scolastico**
+
+---
+
+## ⚙️ Requisiti
+
+- **HTML/CSS/JavaScript**: Un browser moderno (Chrome, Firefox, Edge, Safari)
+- **Java**: JDK 11+ installato
+- **C**: Compilatore GCC/Clang (MinGW su Windows)
+- **IDE Consigliato**: VS Code + estensioni oppure IntelliJ IDEA
+
+---
+
+## 📖 Note Importanti
+
+- ✔️ Tutti i file sono scritti e testati su **Linux/Windows**
+- ✔️ Ogni esercizio è **indipendente** e può essere eseguito singolarmente
+- ✔️ I commenti nel codice sono in **italiano**
+- ✔️ Alcuni esercizi sono **semplificati per chiarezza didattica**
+- 💡 Suggerimenti e miglioramenti sono sempre ben accetti!
+
+---
+
+## 📜 Licenza
+
+Questa repository è distribuita con licenza **MIT**.
+Puoi usare liberamente il codice per scopi didattici e personali.
+
+---
+
+## 👤 Autore
+
+**LuppoTalpa** | IIS F. Corni, Modena
+📧 Contatti disponibili nel profilo GitHub
+
+---
+
+**Ultimo aggiornamento**: Gennaio 2026 | **Commits**: 20+
